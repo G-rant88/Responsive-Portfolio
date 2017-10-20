@@ -132,16 +132,18 @@ footer {
 
 }
 
-#background {
+ #background {
 
-	width: 960px;
+	width: 75%;
 	clear: both;
 	margin: auto;
 	box-sizing: border-box;
 
+	}
 
 
-}
+
+
 
 #navdiv {
 
@@ -357,6 +359,14 @@ li:hover {
 
 @media screen and (max-width: 980px) {
 
+	#background {
+	clear: both;
+	margin: auto;
+	box-sizing: border-box;
+	width: 100%;
+
+}
+
 	#content {
 
 		width: 38%;
@@ -435,9 +445,21 @@ li:hover {
 
 @media screen  and (max-width: 768px) {
 
+
+
+#background {
+	clear: both;
+	margin: auto;
+	box-sizing: border-box;
+	width: 100%;
+
+}
+
+
 #content {
 
-		width: 74%;
+		width: 97%;
+		margin: auto;
 		margin-left: 1.5%;
 		margin-bottom: 20px;
 		margin-right: 1.5%;
@@ -445,8 +467,8 @@ li:hover {
 	}
 
 	#sidebar {
-
-		width: 74%;
+		margin: auto;
+		width: 97%;
 		margin-left: 1.5%;
 		margin-bottom: 20px;
 		margin-right: 1.5%;
@@ -528,21 +550,21 @@ li:hover {
 
 @media screen and (max-width: 640px) {
 
-#content, #navname {
-
-	margin-left: -91px;
-}
-
-#navname, {
-
-	padding-left: -291px;
+#background {
+	clear: both;
+	margin: auto;
+	box-sizing: border-box;
+	width: 100%;
 
 }
 
 #content {
 
-		width: 60%;
-		margin-left: 15px;
+		width: 98%;
+		margin: auto;
+
+		margin-left: 2%;
+		margin-right: 2%;
 		
 		margin-bottom: 20px;
 		
@@ -550,7 +572,9 @@ li:hover {
 
 	#sidebar {
 
-		width: 60%;
+		width: 98%;
+		margin-left: 2%;
+		margin-right: 2%;
 
 
 	}
@@ -634,4 +658,11 @@ li:hover {
 
 	left: 10px;
 	top: 1780px;
+}
+
+li {
+
+	
+
+
 }
