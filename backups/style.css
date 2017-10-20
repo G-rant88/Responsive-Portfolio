@@ -1,0 +1,310 @@
+h1, h2, h3 {
+	font-family: Georgia;
+	color: #4aaaa5;
+}
+a {
+        text-decoration: none;
+        color: #777777;
+
+    }
+
+p, #message, #name, #email, form {
+	font-family: Arial;
+	color: #777777;
+
+}
+
+header {
+	background-color: #ffffff;
+	border-color: #cccccc;
+}
+
+h2 {
+	text-align: center;
+}
+
+
+#content {
+	
+	width: 67.7%;
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px solid white;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	float: left;
+	
+	margin-bottom: 30px;
+	
+
+}
+
+
+
+#sidebar {
+
+	float: left;
+	width: 28.125%;
+	border: 1px solid white;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	margin-left: 20px;
+	box-sizing: border-box;
+	padding: 20px;
+	height: 190px;
+	
+}
+
+#sideicons {
+	margin: auto;
+	padding-left: 18px;
+	padding-top: 8px;
+}
+
+#pic {
+	padding: 10px;
+	height: 200px;
+	width: 320px;
+	float: left;
+}
+
+p {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+h1 {
+	padding: 10px;
+}
+
+body {
+
+	background-image: url("../images/bgimg.png");
+	width: 100%;
+	margin: 0;
+
+}
+
+
+.icon {
+	height: 60px;
+	width: 60px;
+	box-sizing: border-box;
+
+
+}
+
+ #imgs {
+ 	padding-left: 20px;
+ 	padding-top: 10px;
+ 	clear: both;
+ }
+
+header {
+	background-color: white;
+	margin-bottom: 20px;
+	border-bottom: 2px solid lightgray;
+
+}
+
+footer {
+	
+	box-sizing: border-box;
+	width: 100%;
+	background-color: #666666;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 70px;
+	clear: both;
+	margin-top: 10px;
+	padding-top: 26px;
+	text-align: center;
+	color: white;
+	margin-bottom: 0;
+	border-top: 5px solid #4aaaa5;
+	
+
+}
+
+#background {
+	width: 960px;
+	clear: both;
+	margin: auto;
+	box-sizing: border-box;
+
+
+
+}
+
+#navdiv {
+
+ width: 960px;
+	  margin: auto;
+	  box-sizing: border-box;
+	  height: 70px;
+
+	  
+}
+
+ul {
+    list-style-type: none;
+    box-sizing: border-box;
+    height: 70px;
+    overflow: hidden;
+    background-color: white;
+    margin: auto;  
+
+}
+
+ li {
+
+ 	float: right;
+ 	display: inline;
+    font-family: Arial;
+	color: #777777;
+    text-align: right;
+    padding-left: 22px;
+    font-size: 15px;
+    padding-right: 29px;
+    opacity: .7;
+    padding-top: 5px;
+
+    
+}
+
+
+#navname {
+	float: left;
+	font-family: Georgia;
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 30px;
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 16px;
+	padding-right: 20px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	overflow: hidden;
+
+}
+
+hr {
+	color: gray;
+	opacity: .6;
+	width: 95%;
+	border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0,0,0,.25);
+    border-bottom: 1px solid rgba(0,0,0,.25);
+}
+
+#contact {
+	margin-bottom: 10px;
+}
+
+form {
+	margin-top: 15px;
+	padding: 10px;
+	width: 100%;
+
+}
+
+#name, #email, #message {
+	width: 95%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+ button {
+	font-family: Georgia;
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 15px;
+	border: none;
+    padding: 7px 19px;
+    text-align: center; 
+    display: inline-block;
+    margin-top: 5px;
+   
+	
+}
+
+#name, #email {
+	padding: 5px;
+	opacity: .65;
+}
+
+
+	
+.gallery {
+	width: 46.5%;
+	height: 33.33333%;
+	box-sizing: border-box;
+	margin: 10px;
+	float: left;
+
+}
+
+#hrportfolio {
+	margin-bottom: 20px;
+}
+
+.gallerybutton {
+	float: left;
+    width: 292px;
+    height: 50px;
+    font-size: 20px;
+    position: absolute;
+    left: 10px;
+    top: 140px;
+}
+
+.imgfloat {
+
+	position: relative;
+		box-sizing: border-box;
+		float: left;
+		overflow: hidden;
+
+}
+
+#rome {
+
+	left: 322px;
+    top: 140px;
+}
+
+#florence {
+	left: 10px;
+    top: 355px;
+}
+
+#israel {
+	left: 10px;
+    top: 570px;
+}
+
+#sant {
+
+	left: 322px;
+    top: 355px;
+}
+
+.border {
+	height: 20px;
+	top: 20px;
+	position: relative;
+	
+	
+}
+
+
+li+li {
+	border-right: 1px solid rgba(0, 0, 0, .2);
+}
+
+#sidehr {
+	opacity: .3;
+}
