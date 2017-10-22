@@ -625,6 +625,11 @@ li:hover {
 
 	}
 
+	ul {
+
+		padding-left: 5%;
+	}
+
 	.border {
 
 		padding-right: 100px;
@@ -685,3 +690,27 @@ li:hover {
 	top: 1830px;
 }
 
+@media screen and (max-width: 570px) {
+
+	.border {
+
+		padding-right: 5px;
+
+	}
+
+ul {
+
+	margin-right: 20%;
+	margin-left: 15%;
+	float: none;
+	text-align: center;
+
+}
+
+li {
+
+	font-size: 13px;
+}
+
+
+}
