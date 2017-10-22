@@ -405,10 +405,6 @@ li:hover {
 		width: 95%;
 	}
 
-	
-
-
-		
 
 
 	
@@ -460,7 +456,13 @@ li:hover {
 
 @media screen  and (max-width: 768px) {
 
+#pic {
 
+	padding: 10px;
+	height: 40%;
+	width: 50%;
+
+}
 
 #background {
 	clear: both;
