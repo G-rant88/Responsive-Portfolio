@@ -713,4 +713,36 @@ li {
 }
 
 
+.gallerybutton {
+
+	width: 95%;
+	height: 3.5%;
+	top: 170px;
+	clear: both;
+}
+
+#rome {
+
+	left: 10px;
+	top: 400px;
+}
+
+#florence {
+
+	left: 10px;
+	top: 630px;
+}
+
+#sant {
+
+	left: 10px;
+	top: 860px;
+}
+
+#israel {
+
+	left: 10px;
+	top: 1090px;
+}
+
 }
